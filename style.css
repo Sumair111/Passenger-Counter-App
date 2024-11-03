@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app{ width: 20vw;
+    height: 60vh;
+    align-items: start;
+   
+}
+.bgimg{
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    opacity: 0.5;
+
+}
+.text{
+display: flex;
+flex-direction: column;
+z-index: 10;
+position: relative;
+align-items:center;
+padding: 10px;
+row-gap: 10px;
+}
+
+
+
+#increment-button{
+    border-radius: 2px;
+    width: 140px;
+    padding: 5px;
+    background-color: rgb(126, 14, 14);
+    border-color:rgb(126, 14, 14) ;
+    color: white;
+    font-weight: bold;
+    font-size:  15px;
+}
+
+#save-btn{
+    border-radius: 2px;
+    width: 140px;
+    padding: 5px;
+    background-color: rgb(95, 86, 86);
+    border-color:rgb(82, 80, 80) ;
+    color: white;
+    font-weight: bold;
+    font-size:  15px;
+}
+
+#save-el{
+    font-size: large;
+    font-weight: bold;
+    font-size:  15px;
+    position: relative;
+    text-align: start;
+    margin-top: 40px;
+    
+}
+
